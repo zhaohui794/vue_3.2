@@ -11,7 +11,7 @@
       <el-form-item>
         <i class="el-icon-edit-outline" size="20"></i>
         <el-input
-          v-model="form.name"
+          v-model="form.password"
           show-password
           placeholder="请输入密码"
         ></el-input>
@@ -27,7 +27,8 @@
 <script setup>
 import { ref } from 'vue'
 const form = ref({
-  name: ''
+  name: '',
+  password: ''
 })
 </script>
 
